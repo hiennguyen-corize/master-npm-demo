@@ -1,0 +1,23 @@
+{
+  "name": "@hiennguyen-corize/master-npm-demo",
+  "version": "1.0.0",
+  "description": "Master demo package for learning npm publish with CI/CD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiennguyen-corize/master-npm-demo.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [
+    "npm",
+    "github-packages",
+    "ci-cd"
+  ],
+  "author": "Hien Nguyen",
+  "license": "MIT"
+}
