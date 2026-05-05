@@ -1,6 +1,6 @@
 {
   "name": "@hiennguyen-corize/master-npm-demo",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Master demo package for learning npm publish with CI/CD",
   "main": "index.js",
   "scripts": {
