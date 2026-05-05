@@ -1,5 +1,5 @@
 {
-  "name": "@hiennguyen-corize/master-npm-demo",
+  "name": "@nguyenhien2611/master-npm-demo",
   "version": "1.1.1",
   "description": "Master demo package for learning npm publish with CI/CD",
   "main": "index.js",
