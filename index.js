@@ -15,9 +15,14 @@ function capitalizeString(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
+function getRandomNumber(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 module.exports = {
   helloNpmMaster,
   addNumbers,
   multiplyNumbers,
-  capitalizeString
+  capitalizeString,
+  getRandomNumber
 };
