@@ -24,11 +24,16 @@ function divideNumbers(a, b) {
   return a / b;
 }
 
+function subtractNumbers(a, b) {
+  return a - b;
+}
+
 module.exports = {
   helloNpmMaster,
   addNumbers,
   multiplyNumbers,
   capitalizeString,
   getRandomNumber,
-  divideNumbers
+  divideNumbers,
+  subtractNumbers
 };
